@@ -1,0 +1,192 @@
+/*------------------------------------------------------------------
+[ Improved Sale Badges for WooCommerce STYLE]
+
+[Table of contents]
+
+1.Includes
+2.General
+3.Styles
+4.Variable
+-------------------------------------------------------------------*/
+
+@import url('colors.css');
+
+/*------------------------------------------------------------------
+[General]
+-------------------------------------------------------------------*/
+
+.isb_sale_badge {
+	position:absolute;
+	box-sizing:border-box;
+	z-index:101;
+}
+.isb_sale_badge * {
+	box-sizing:border-box;
+}
+.isb_sale_badge .isb_money_saved {
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+
+
+/*------------------------------------------------------------------
+[Styles ]
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+[Pop]
+-------------------------------------------------------------------*/
+
+.isb_style_pop {
+	width:50px;
+	height:50px;
+	background-color:transparent !important;
+}
+.isb_style_pop.isb_right {
+	top:5px;
+	right:5px;
+}
+.isb_style_pop.isb_left {
+	top:5px;
+	left:5px;
+	right:auto;
+}
+
+	.isb_style_pop svg {
+		position:absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+	}
+	.isb_style_pop .isb_sale_percentage {
+		position:absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+		font-size:18px;
+		font-weight:bold;
+		line-height:50px;
+		text-align:center;
+	}
+		.isb_style_pop .isb_sale_percentage .isb_percentage:before {
+			content:'-';
+			margin-right:-4px;
+		}
+		.isb_style_pop .isb_sale_percentage .isb_percentage_text {
+			margin-left:-4px;
+			font-size:12px;
+		}
+
+.isb_style_pop.isb_right .isb_scheduled_sale {
+	right:0;
+}
+.isb_style_pop.isb_left .isb_scheduled_sale {
+	left:0;
+}
+.isb_style_pop .isb_scheduled_sale {
+	position:absolute;
+	top:52px;
+	padding:3px;
+	font-size:10px;
+	line-height:12px;
+	text-align:center;
+	white-space:nowrap;
+	border-radius:3px;
+}
+	.isb_style_pop .isb_scheduled_sale > span {
+		white-space:nowrap;
+		text-overflow:ellipsis;
+		overflow:hidden;
+	}
+		.isb_style_pop .isb_scheduled_sale span.isb_scheduled_time span {
+			margin-right:2px;
+		}
+
+/*------------------------------------------------------------------
+[XMAS 1]
+-------------------------------------------------------------------*/
+
+.isb_style_xmas_1 {
+	width:50px;
+	height:60px;
+	background-color:transparent !important;
+}
+.isb_style_xmas_1.isb_right {
+	top:5px;
+	right:5px;
+}
+.isb_style_xmas_1.isb_left {
+	top:5px;
+	left:5px;
+	right:auto;
+}
+
+	.isb_style_xmas_1 svg {
+		position:absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+	}
+	.isb_style_xmas_1 .isb_sale_percentage {
+		position:absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+		font-size:22px;
+		font-weight:bold;
+		line-height:44px;
+		text-align:center;
+	}
+		.isb_style_xmas_1 .isb_sale_percentage .isb_percentage_text {
+			margin-left:-4px;
+			font-size:12px;
+		}
+
+	.isb_style_xmas_1 .isb_sale_text {
+		position:absolute;
+		bottom:10px;
+		left:0;
+		width:100%;
+		font-size:12px;
+		font-weight:bold;
+		line-height:12px;
+		text-align:center;
+	}
+
+.isb_style_xmas_1.isb_right .isb_scheduled_sale {
+	right:0;
+}
+.isb_style_xmas_1.isb_left .isb_scheduled_sale {
+	left:0;
+}
+.isb_style_xmas_1 .isb_scheduled_sale {
+	position:absolute;
+	top:62px;
+	padding:3px;
+	font-size:10px;
+	line-height:12px;
+	text-align:center;
+	white-space:nowrap;
+}
+	.isb_style_xmas_1 .isb_scheduled_sale > span {
+		white-space:nowrap;
+		text-overflow:ellipsis;
+		overflow:hidden;
+	}
+		.isb_style_xmas_1 .isb_scheduled_sale span.isb_scheduled_time span {
+			margin-right:2px;
+		}
+
+
+/*------------------------------------------------------------------
+[Variable]
+-------------------------------------------------------------------*/
+
+.isb_variable {
+	display:none;
+}

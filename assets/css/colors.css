@@ -1,0 +1,87 @@
+/*------------------------------------------------------------------
+[ Improved Sale Badges for WooCommerce COLORS]
+
+[Table of contents]
+
+1.Colors
+2.SVG Shared
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+[Colors]
+-------------------------------------------------------------------*/
+
+.isb_orange {
+	fill:#FF8800;
+	background-color:#FF8800;
+	outline-color:#FF8800 !important;
+	color:#fff;
+}
+	.isb_orange .isb_color {
+		color:#FF8800 !important;
+	}
+	.isb_orange:before,
+	.isb_orange:after {
+		border-color:#FF8800 !important;
+	}
+
+.isb_red {
+	fill:#FA3E3E;
+	background-color:#FA3E3E;
+	outline-color:#FA3E3E !important;
+	color:#fff;
+}
+	.isb_red .isb_color {
+		color:#FA3E3E !important;
+	}
+	.isb_red:before,
+	.isb_red:after {
+		border-color:#FA3E3E !important;
+	}
+
+.isb_green {
+	fill:#429867;
+	background-color:#429867;
+	outline-color:#429867 !important;
+	color:#fff;
+}
+	.isb_green .isb_color {
+		color:#429867 !important;
+	}
+	.isb_green:before,
+	.isb_green:after {
+		border-color:#429867 !important;
+	}
+
+.isb_marine {
+	fill:#0B233D;
+	background-color:#0B233D;
+	outline-color:#0B233D !important;
+	color:#fff;
+}
+	.isb_marine .isb_color {
+		color:#0B233D !important;
+	}
+	.isb_marine:before,
+	.isb_marine:after {
+		border-color:#0B233D !important;
+	}
+
+
+/*------------------------------------------------------------------
+[SVG Shared]
+-------------------------------------------------------------------*/
+
+.isb_ui {
+	fill:#343436;
+}
+
+.isb_shadow {
+	fill:#343436;
+	fill-opacity:0.2;
+}
+
+.isb_white {
+	fill:#fff;
+	fill-opacity:0.66;
+}
