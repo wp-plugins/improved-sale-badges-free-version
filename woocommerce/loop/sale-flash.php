@@ -130,7 +130,7 @@
 			$isb_class = $isb_curr_set['style'] . ' ' . $isb_curr_set['color'] . ' ' . $isb_curr_set['position'];
 		}
 		else {
-			$isb_class = 'isb_style_basic isb_red isb_right';
+			$isb_class = 'isb_style_pop isb_red isb_right';
 		}
 
 		$include = WC_Improved_Sale_Badges_Free::isb_get_path() . 'includes/styles/' . $isb_curr_set['style'] . '.php';

@@ -4,7 +4,7 @@ Plugin Name: Improved Sale Badges - Free Version
 Plugin URI: http://www.mihajlovicnenad.com/improved-sale-badges
 Description: Improved Sale Badges for WooCommerce- Free Version! Get Improved Sale Badges for WooCommerce Premium Version here http://bit.ly/1GN7IR4 - mihajlovicnenad.com
 Author: Mihajlovic Nenad
-Version: 1.0.0
+Version: 1.0.1
 Author URI: http://www.mihajlovicnenad.com
 */
 
@@ -26,7 +26,7 @@ Author URI: http://www.mihajlovicnenad.com
 
 			global $isb_set;
 		
-			$isb_set['style'] = ( isset( $_POST['isb_style'] ) ? $_POST['isb_style'] : get_option( 'wc_settings_isb_style', 'isb_style_basic' ) );
+			$isb_set['style'] = ( isset( $_POST['isb_style'] ) ? $_POST['isb_style'] : get_option( 'wc_settings_isb_style', 'isb_style_pop' ) );
 			$isb_set['color'] = ( isset( $_POST['isb_color'] ) ? $_POST['isb_color'] : get_option( 'wc_settings_isb_color', 'isb_red' ) );
 			$isb_set['position'] = ( isset( $_POST['isb_position'] ) ? $_POST['isb_position'] : get_option( 'wc_settings_isb_position', 'isb_right' ) );
 

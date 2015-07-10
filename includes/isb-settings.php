@@ -90,7 +90,7 @@
 						$isb_class = $isb_set['style'] . ' ' . $isb_set['color'] . ' ' . $isb_set['position'];
 					}
 					else {
-						$isb_class = 'isb_style_basic isb_red isb_right';
+						$isb_class = 'isb_style_pop isb_red isb_right';
 					}
 
 					$isb_curr_set = $isb_set;
@@ -192,7 +192,7 @@
 			}
 			
 			$isb_set = array(
-				'style' => ( $_POST['data'][0] !== '' ? $_POST['data'][0] : get_option( 'wc_settings_isb_style', 'isb_style_basic' ) ),
+				'style' => ( $_POST['data'][0] !== '' ? $_POST['data'][0] : get_option( 'wc_settings_isb_style', 'isb_style_pop' ) ),
 				'color' => ( $_POST['data'][1] !== '' ? $_POST['data'][1] : get_option( 'wc_settings_isb_color', 'isb_red' ) ),
 				'position' => ( $_POST['data'][2] !== '' ? $_POST['data'][2] : get_option( 'wc_settings_isb_position', 'isb_left' ) ),
 				'type' => 'simple'
@@ -215,7 +215,7 @@
 				$isb_class = ( isset($isb_set['special']) && $isb_set['special'] !== '' ? $isb_set['special'] : $isb_set['style'] ) . ' ' . $isb_set['color'] . ' ' . $isb_set['position'];
 			}
 			else {
-				$isb_class = 'isb_style_basic isb_red isb_right';
+				$isb_class = 'isb_style_pop isb_red isb_right';
 			}
 
 			$isb_curr_set = $isb_set;

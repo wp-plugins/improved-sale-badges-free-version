@@ -50,7 +50,7 @@
 				$isb_class = $isb_curr_set['style'] . ' ' . $isb_curr_set['color'] . ' isb_left';
 			}
 			else {
-				$isb_class = 'isb_style_basic isb_red isb_left';
+				$isb_class = 'isb_style_pop isb_red isb_left';
 			}
 
 			$include = WC_Improved_Sale_Badges_Free::isb_get_path() . 'includes/styles/' . $isb_curr_set['style'] . '.php';
@@ -114,7 +114,7 @@
 					$isb_class = $isb_curr_set['style'] . ' ' . $isb_curr_set['color'] . ' isb_left';
 				}
 				else {
-					$isb_class = 'isb_style_basic isb_red isb_left';
+					$isb_class = 'isb_style_pop isb_red isb_left';
 				}
 
 				$isb_class = $isb_class . ' isb_variable';
