@@ -8,7 +8,7 @@ Stable tag: 1.0.0
 License: GPL2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-The ultimate tool for managing WooCommerce shops, right at the frontend, featuring live product editing and full vendor support! - Mihajlovicnenad.com
+The best sale badges plugins with scheduled sale support and unlimited presets for WooCommerce! - Mihajlovicnenad.com
 
 == Description ==
 Improved Sale Badges for WooCommerce is a plugin that will transform your sale badges into something that your customers can relate to. Change the style according to your current collection, season or holiday. Plugin seamlessly integrates itself in the WooCommerce interface. Find its settings in the WooCommerce &gt; Settings &gt; Sale Badges. After a quick your shop will automatically show your new badges with the discounts in many designs. Show discounts in percentage or money saved, use custom presets and colors, change your badges on the fly! Check the demo page here http://mihajlovicnenad.com/improved-sale-badges
